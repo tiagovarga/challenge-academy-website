@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --bg-header: #F03C42;
+    --color-white: #fff;
+    --color-dark-blue: #222374;
+    --color-gray: #CCCCCC;
+    --color-black: #000000;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    background-color: var(--bg-header);
+    height: 100px;
+    align-items: center;
+    color: var(--color-white);
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 18px;
+}
+
+.header-instagram{
+    display: flex;
+    align-items: center;
+}
+
+.header-instagram a{
+    padding-left: 10px ;
+}
+
+#meet-our-space{
+   background-color: var(--color-dark-blue);
+}
+
+#meet-our-space h2{
+    font-size: 32px;
+    color: var(--color-white);
+    padding-bottom: 20px;    
+}
+
+.our-space{
+    height: 127px;
+    background-color: var(--color-gray);
+    color: var(--color-black);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.our-space h3{
+    font-size: 20px ;
+}
+
+.our-space p{
+    font-size: 14px;
+}
+
+.section-meet-our-space{
+    padding: 20px 0;
+}
+
+#modalities{
+    background-color: var(--color-white);
+}
+
+#modalities h2{
+    font-size: 32px;
+    color: var(--bg-header);
+    padding-bottom: 20px;
+}
+
+.section-modalities{
+    padding: 20px 0;
+}
+
+.modality-comment{
+    margin: 20px 0;
+    background-color: var(--color-dark-blue);
+    border-radius: 8px;
+    height: 106px;
+    color: var(--color-white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modality-comment h3{
+    font-size: 20px;
+}
+
+.modality-comment p{
+    font-size: 14px;
+}
+
+footer {
+    background-color: var(--color-black);
+    height: 262px;
+    padding: 60px 0;
+    display: flex;
+    color: var(--color-white);
+    font-size: 14px;
+    text-align: center;
+}
+
+.socials-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.socials a{   
+    padding-left: 10px;
+}
